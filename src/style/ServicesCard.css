@@ -1,0 +1,46 @@
+.servicesCard-wrapper {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+  border: transparent;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  min-height: 343px;
+}
+.servicesCard-wrapper:hover {
+  transform: translateY(-10px);
+  /* -webkit-transition: 0.5s; */
+  transition: 0.5s;
+  box-shadow: 0px 2px 2px #bcbcbc;
+  background: #00afef;
+  color: #fff !important;
+}
+.servicesCard-wrapper:hover .servicesCard-heading {
+  color: #fff !important;
+}
+.servicesCard-heading {
+  font-size: 20px;
+  letter-spacing: 0.54px;
+  color: #000000;
+  font-weight: 600;
+  overflow: hidden;
+}
+.servicesCard-wrapper:hover .servicesCard-text {
+  color: #fff !important;
+}
+.servicesCard-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #7d7d7d;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 17px;
+  overflow: hidden;
+}
+.servicesCard-body {
+  padding: 15px 20px 20px 20px;
+}
+.serviceCard-img {
+  width: 100%;
+  height: 118px;
+  object-fit: contain;
+}

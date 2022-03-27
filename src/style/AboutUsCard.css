@@ -1,0 +1,52 @@
+.aboutUsCard-wrapper {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+  background-color: #fff;
+  transition: 0.5s;
+  padding: 15px 20px 20px 20px;
+  border: transparent;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.aboutUsCard-wrapper:hover {
+  transform: translateY(-10px);
+  /* -webkit-transition: 0.5s; */
+  transition: 0.5s;
+  box-shadow: 0px 2px 2px #bcbcbc;
+  background: #00afef;
+  color: #fff !important;
+}
+.aboutUsCard-wrapper:hover .aboutUsCard-heading {
+  color: #fff !important;
+}
+.aboutUsCard-heading {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+}
+.aboutUsCard-wrapper:hover .aboutUsCard-content {
+  color: #fff !important;
+}
+.aboutUsCard-content {
+  font-size: 15px;
+  font-weight: 400;
+  color: #7d7d7d;
+}
+
+.aboutUsCard-btn {
+  font-size: 12px;
+  color: #164ca7;
+  font-weight: 500px;
+  padding: 9px 23px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.aboutUsCard-btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

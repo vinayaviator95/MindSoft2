@@ -1,0 +1,28 @@
+.valueCards {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.valueImg {
+  border-radius: 150px;
+  margin: 7px 30px 7px 8px;
+  width: 145px;
+  height: 145px;
+}
+.valuecardDetails {
+  border-radius: 8px;
+  border-top: 3px solid #33b8ff;
+  border-top-width: 4px;
+  padding: 30px 30px 10px 30px;
+  background-color: #f8f8ff;
+}
+
+.valuecardDetails h3 {
+  color: #00afef;
+}
+
+.valuecardDetails p {
+  font-size: 15px;
+  line-height: 25px;
+}

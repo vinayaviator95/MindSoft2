@@ -1,0 +1,41 @@
+.missionContainer {
+  text-align: left;
+}
+.highlight {
+  color: black;
+
+  font-size: 15px;
+}
+
+.hightlightButton {
+  height: 100px;
+  background-color: #f8f8ff;
+  border: transparent;
+  margin-right: 20px;
+}
+
+.hightlightButtonTwo {
+  height: 50px;
+  background-color: #f8f8ff;
+  border: transparent;
+  margin-right: 20px;
+}
+.hightlightFlex {
+  display: flex;
+
+  align-items: center;
+}
+.rightsideHeading {
+  line-height: 32px;
+  font-size: 25px;
+  color: #00afef;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+.missionContainer .overviewHighlight {
+  color: black;
+  line-height: 32px;
+  font-size: 20px;
+
+  letter-spacing: normal;
+}
