@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import "../../../style/AboutUs.css";
 // import Mission from "./Mission";
 import { IoMdArrowDropright } from "react-icons/io";
-import Mission from "../aboutUs/Mission";
-import Values from "../aboutUs/Values";
 import SoftwareDevelopment from "./SoftwareDevelopment";
 import TechnologyConsulting from "./TechnologyConsulting";
 import StaffAugmentatuon from "./StaffAugmentatuon";

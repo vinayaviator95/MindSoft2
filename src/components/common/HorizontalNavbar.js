@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Nav, NavDropdown } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../style/HorizontalNavbar.css";
 
 // import { Container, Nav, NavDropdown } from "react-bootstrap";
