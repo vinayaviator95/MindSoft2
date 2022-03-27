@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import Container from "react-bootstrap/container";
-import Row from "react-bootstrap/row";
-import Col from "react-bootstrap/col";
 import "../../../style/AboutUs.css";
 // import Mission from "./Mission";
 import { IoMdArrowDropright } from "react-icons/io";
@@ -11,6 +8,7 @@ import SoftwareDevelopment from "./SoftwareDevelopment";
 import TechnologyConsulting from "./TechnologyConsulting";
 import StaffAugmentatuon from "./StaffAugmentatuon";
 import Industry from "./Industry";
+import { Container, Row, Col } from "react-bootstrap";
 
 // import Values from "./Values";
 
