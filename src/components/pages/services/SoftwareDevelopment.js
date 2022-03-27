@@ -4,8 +4,8 @@ import "../../../style/Mission.css";
 export const SoftwareDevelopment = () => {
   return (
     <div className="missionContainer">
-      <h3 className="rightsideHeading">SOFTWARE DEVELOPMENT</h3>
-      <div>
+      <h3 className="rightsideHeading my-2">SOFTWARE DEVELOPMENT</h3>
+      <div className="my-2">
         <b>Business Application:</b> Competitiveness in the global marketplace
         requires speed and agility at every level. Businesses must respond
         quickly to meet customer demand, improve speed to market, react swiftly
@@ -18,7 +18,7 @@ export const SoftwareDevelopment = () => {
         office applications, internet software, utilities, text and graphics
         editors, communication software.
       </div>
-      <div>
+      <div className="my-2">
         <b>E-Commerce Solution:</b>MindSoft provides customized E-Commerce
         solutions for local and international clients. Today e-commerce has
         revolutionized the system of communication and commerce. It has brought
@@ -29,7 +29,7 @@ export const SoftwareDevelopment = () => {
         manages its client’s website and all these are done in a productive
         environment to ensure its client’s success.
       </div>
-      <div>
+      <div className="my-2">
         <b>MIS Solution:</b> Are you looking to make the most of your company's
         technology investment? Are you seeking progressive, profit-building ways
         to streamline your process? MIS Solutions can guide you to choose and
@@ -40,7 +40,7 @@ export const SoftwareDevelopment = () => {
         Sales Tracking System, Operations Management, Accounting Management,
         Asset Management, Projects Management and Admin portal etc.
       </div>
-      <div>
+      <div className="my-2">
         <b>Web Development:</b>In today’s market website development plays a
         vital role for an organization. It is a onetime investment with huge
         returns. Web development solutions find its way in the implementation of

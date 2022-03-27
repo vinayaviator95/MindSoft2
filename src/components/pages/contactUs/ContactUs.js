@@ -10,6 +10,7 @@ const ContactUs = () => {
   return (
     <Container>
       <Row className="mt-2">
+        <div className="line"></div>
         <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6} xxxl={6}>
           <div className="contactUs-leftDiv">
             <div className="contactUs-heading">CONTACT US</div>

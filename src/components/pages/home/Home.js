@@ -12,6 +12,8 @@ const Home = () => {
   return (
     <Container>
       <Row>
+        <div className="line"></div>
+
         <div className="aboutUs-heading">ABOUT US</div>
         {aboutUsCardString.map((item) => {
           return (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Container from "react-bootstrap/container";
+// import Container from "react-bootstrap/container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
 import "../../../style/AboutUs.css";
@@ -7,6 +7,7 @@ import "../../../style/AboutUs.css";
 import { IoMdArrowDropright } from "react-icons/io";
 import Mission from "../aboutUs/Mission";
 import Values from "../aboutUs/Values";
+import { Container } from "react-bootstrap";
 
 // import Values from "./Values";
 

@@ -3,7 +3,7 @@ import React from "react";
 const StaffAugmentatuon = () => {
   return (
     <div>
-      <div>Staff Augmentatuon</div>
+      <div className="rightsideHeading my-2">STAFF AUGMENTATION</div>
       <p>
         With companies adopting more aggressive growth and expansion strategies,
         the need to augment efficient staff at an accelerated pace has become
@@ -23,13 +23,13 @@ const StaffAugmentatuon = () => {
       <h4>
         <b>How MindSoft Brings You the Best Staff Augmentation Solution?</b>
       </h4>
-      <div>
+      <div className="my-2">
         <b>Access to resource pool:</b>
         MindSoft specialists have access to the necessary resources, databases,
         technologies, networks and expertise to scan the local and global
         markets to find the best possible match for your skill set requirement..
       </div>
-      <div>
+      <div className="my-2">
         <b>Screening customized to your requirements:</b>
         Our screening experts don't just stop at finding the right skill match
         for you, but go further to ensure that the candidate possesses the right
@@ -38,7 +38,7 @@ const StaffAugmentatuon = () => {
         resources, Staff levels can be managed to be at productive levels all
         year.
       </div>
-      <div>
+      <div className="my-2">
         <b>Time to market:</b>
         With a dedicated Human Resource management partner at your disposal, you
         can be assured of talent needs being fulfilled at an accelerated pace,
@@ -47,12 +47,12 @@ const StaffAugmentatuon = () => {
         pre-screened for the necessary skills, limited training is needed before
         the new employee becomes productive thus reducing training cost.
       </div>
-      <div>
+      <div className="my-2">
         <b>Bench strength:</b>
         Adequate bench maintained as a backup and active pipeline managed for
         scalability on short notices
       </div>
-      <div>
+      <div className="my-2">
         <b>Leveraging our experience:</b>
         Our Human Resource and Relationship specialists are capable of and are
         trained not only to manage, but also motivate talented professionals, so

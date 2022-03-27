@@ -3,7 +3,7 @@ import React from "react";
 const Industry = () => {
   return (
     <div>
-      <div>Industry</div>
+      <div className="rightsideHeading my-2">INDUSTRY</div>
       <p>
         At MindSoft, we offer you the ability to adapt and augment your core
         functions with access to trained professionals, who collaborate to add
@@ -15,14 +15,14 @@ const Industry = () => {
       <h4>
         <b>Domain Specialization</b>
       </h4>
-      <div>
+      <div className="my-2">
         <b>Vertical Domains:</b>
         With a team of experts at your disposal, specialists in their respective
         industry verticals, you can be assured of dealing with professionals
         well-versed with the intricacies and issues pertaining to your industry,
         leading to faster solutions.
       </div>
-      <div>
+      <div className="my-2">
         <b>Horizontal Domains:</b>
         Building upon the core competencies, common to most businesses, we offer
         you the expertise of seasoned professionals, who come equipped with the

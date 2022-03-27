@@ -3,8 +3,8 @@ import React from "react";
 const TechnologyConsulting = () => {
   return (
     <div>
-      <div>Technology Consulting</div>
-      <div>
+      <div className="rightsideHeading my-2">TECHNOLOGY CONSULTING</div>
+      <div className="my-2">
         Information technology has become one of the central and core element of
         strategy of any organization. It not only provides seamless integration
         between various organizational functions, supports day-to-day
@@ -16,20 +16,20 @@ const TechnologyConsulting = () => {
         spectrum of services, fine-tuned to achieving higher performance, while
         accommodating specific client needs.
       </div>
-      <div>
+      <div className="my-2">
         <h4>
           <b>
             How does opting for MindSoft's Technology Solutions benefit you?
           </b>
         </h4>
-        <div>
+        <div className="my-2">
           <b>Experience and technology expertise: </b>MindSoft has experienced
           and dedicated team of technology professionals who together with
           customers, have conceptualized, developed and maintained
           mission-critical technology solutions. Our team has worked on diverse
           technology platforms.
         </div>
-        <div>
+        <div className="my-2">
           <b>Engagement models:</b>MindSoft is flexible in its engagement models
           with its customers. MindSoft engages with customers based upon
           specific customer and project requirements. Engagement models include:
@@ -58,14 +58,14 @@ const TechnologyConsulting = () => {
           condensed years of expertise into the following end-to-end Solution
           Modules:
         </p>
-        <div>
+        <div className="my-2">
           <b>Technology Architecture and Design:</b>
           Every business has a unique set of needs, which is why we take the
           time to understand and evaluate your specific requirements, in order
           to create the most robust and progressively flexible technology
           architecture for your organization.
         </div>
-        <div>
+        <div className="my-2">
           <b>Business Analysis:</b>
           Mere survival is not an option for today's business, it not only needs
           to keep up with its competition, but also stay one step ahead. For
@@ -74,7 +74,7 @@ const TechnologyConsulting = () => {
           make straightforward and unambiguous decisions for technology
           solutions.
         </div>
-        <div>
+        <div className="my-2">
           <b>Development and Implementation:</b>
           Rationale and practicality form the cornerstones of our solutions,
           making solution development and implementation a seamless process. For
@@ -82,19 +82,19 @@ const TechnologyConsulting = () => {
           assemble technology solutions that meet robust, mission critical
           requirements.
         </div>
-        <div>
+        <div className="my-2">
           <b>Project Management:</b>
           We want you to focus on what you do best, which is why we have our
           project managers work in collaboration with your project sponsors to
           deliver results faster and more diligently.
         </div>
-        <div>
+        <div className="my-2">
           <b>Software Product implementation:</b>
           Besides working on specific custom projects, we seamlessly customize
           and implement software product packages including ERP, Risk suite of
           application etc.
         </div>
-        <div>
+        <div className="my-2">
           <b>Research and Development:</b>
           In addition to custom projects, product implementation, MindSoft
           experts can partner with you for new Software product or application

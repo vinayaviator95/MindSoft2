@@ -51,7 +51,7 @@ const Services = () => {
         <div className="line"></div>
         <div className="fluid-container">
           <Row className="justify-content-center">
-            <Col md={3} className="  sideContainer m-2">
+            <Col md={4} className="  sideContainer m-2">
               <div className="sideMain">
                 <div className="sideDetails">
                   <div className="heading">
@@ -112,23 +112,23 @@ const Services = () => {
             </Col>
 
             {displayedContent && (
-              <Col md={8} className="rightContainer m-2">
+              <Col md={7} className="rightContainer m-2">
                 <SoftwareDevelopment />
               </Col>
             )}
 
             {displayedMissionContent && (
-              <Col Col md={8} className="rightContainer m-2">
+              <Col Col md={7} className="rightContainer m-2">
                 <TechnologyConsulting />
               </Col>
             )}
             {displayedValuesContent && (
-              <Col Col md={8} className="rightContainer m-2">
+              <Col Col md={7} className="rightContainer m-2">
                 <StaffAugmentatuon />
               </Col>
             )}
             {displayIndustry && (
-              <Col Col md={8} className="rightContainer m-2">
+              <Col Col md={7} className="rightContainer m-2">
                 <Industry />
               </Col>
             )}
