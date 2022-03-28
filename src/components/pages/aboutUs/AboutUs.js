@@ -36,7 +36,7 @@ const AboutUs = () => {
         <div className="line"></div>
         <div className="fluid-container">
           <Row className="justify-content-center">
-            <Col md={3} className="  sideContainer m-2">
+            <Col md={4} className="  sideContainer m-2">
               <div className="sideMain">
                 <div className="sideDetails">
                   <div className="heading">
@@ -50,7 +50,7 @@ const AboutUs = () => {
                     <IoMdArrowDropright style={{ marginRight: "5px" }} />
                     <span>OverView</span>
                   </div>
-                  <div className="sideContent" onClick={handleMission}>
+                  {/* <div className="sideContent" onClick={handleMission}>
                     <IoMdArrowDropright
                       style={{ marginRight: "5px", marginLeft: "10px" }}
                     />
@@ -61,17 +61,17 @@ const AboutUs = () => {
                       style={{ marginRight: "5px", marginLeft: "10px" }}
                     />
                     <span>CoreValues</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Col>
 
             {displayedContent && (
-              <Col md={8} className="rightContainer m-2">
+              <Col md={7} className="rightContainer m-2">
                 <h3 className="rightsideHeading">OVERVIEW</h3>
-                <h4>
+                {/* <h4>
                   <em className="overviewHighlight">Who we are</em>
-                </h4>
+                </h4> */}
 
                 <p>
                   MindSoft is a global IT and Engineering solutions provider
@@ -108,16 +108,16 @@ const AboutUs = () => {
               </Col>
             )}
 
-            {displayedMissionContent && (
+            {/* {displayedMissionContent && (
               <Col Col md={8} className="rightContainer m-2">
                 <Mission />
               </Col>
-            )}
-            {displayedValuesContent && (
+            )} */}
+            {/* {displayedValuesContent && (
               <Col Col md={8} className="rightContainer m-2">
                 <Values />
               </Col>
-            )}
+            )} */}
           </Row>
         </div>
       </div>

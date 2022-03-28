@@ -3,12 +3,15 @@ import "../../style/ServicesCard.css";
 
 const ServicesCard = ({ img, heading, content }) => {
   const MAX_HEADING = 20;
-  const MAX_CONTENT = 170;
+  const MAX_CONTENT = 300;
   return (
     <div className="servicesCard-wrapper">
-      <div>
-        <img className="serviceCard-img" src={img} alt="" />
-      </div>
+      {img && (
+        <div>
+          <img className="serviceCard-img" src={img} alt="" />
+        </div>
+      )}
+
       <div className="servicesCard-body">
         <div className="servicesCard-heading">
           {heading.length > MAX_HEADING

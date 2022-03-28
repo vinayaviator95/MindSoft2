@@ -1,6 +1,6 @@
 import React from "react";
 
-const Industry = () => {
+const IndustryComponent = () => {
   return (
     <div>
       <div className="rightsideHeading my-2">INDUSTRY</div>
@@ -53,4 +53,4 @@ const Industry = () => {
   );
 };
 
-export default Industry;
+export default IndustryComponent;

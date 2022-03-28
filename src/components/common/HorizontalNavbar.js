@@ -25,6 +25,9 @@ const HorizontalNavbar = () => {
               <Link to="/service" exact className="navbar-home">
                 SERVICES
               </Link>
+              <Link to="/industry" exact className="navbar-home">
+                INDUSTRY
+              </Link>
               <Link eventKey={2} to="/contactUs" exact className="navbar-home">
                 CONTACT US
               </Link>

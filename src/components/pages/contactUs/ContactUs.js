@@ -25,16 +25,16 @@ const ContactUs = () => {
               <span style={{ marginRight: "6px" }}>
                 <IoIosCall />
               </span>
-              <b>Phone:</b>(312) 585-6061
+              <b>Phone:</b>&nbsp;(312) 585-6061
             </div>
             <div className="mt-2 mb-2">
               <span style={{ marginRight: "2px" }}>
                 <MdEmail />
               </span>
-              <b> Email:</b>info@mindsoftinc.com
+              <b> Email:</b>&nbsp;info@mindsoftinc.com
             </div>
             <div>
-              <img className="contactUs-image" src={images.contactUs} alt="" />
+              <img className="contactUs-image" src={images.calling} alt="" />
             </div>
           </div>
         </Col>
