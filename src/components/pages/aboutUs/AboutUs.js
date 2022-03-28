@@ -10,25 +10,12 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const AboutUs = () => {
   const [displayedContent, SetDislpayedContent] = useState(true);
-  const [displayedMissionContent, SetDislpayedMissionContent] = useState(false);
-  const [displayedValuesContent, SetDislpayeValuesContent] = useState(false);
+  // const [displayedMissionContent, SetDislpayedMissionContent] = useState(false);
+  // const [displayedValuesContent, SetDislpayeValuesContent] = useState(false);
   const handleClickOverview = () => {
     SetDislpayedContent(true);
-    SetDislpayedMissionContent(false);
-    SetDislpayeValuesContent(false);
   };
 
-  const handleMission = () => {
-    SetDislpayedContent(false);
-    SetDislpayeValuesContent(false);
-    SetDislpayedMissionContent(true);
-  };
-
-  const handleValues = () => {
-    SetDislpayedContent(false);
-    SetDislpayedMissionContent(false);
-    SetDislpayeValuesContent(true);
-  };
   return (
     <Container>
       <div className=" aboutContainer">

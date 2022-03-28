@@ -1,4 +1,4 @@
-import { images } from "../../assets/images/image.js";
+// import { images } from "../../assets/images/image.js";
 
 export const aboutUsCardString = [
   {
