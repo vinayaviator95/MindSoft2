@@ -11,7 +11,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const AboutUs = () => {
   const [displayedContent, SetDislpayedContent] = useState(true);
   // const [displayedMissionContent, SetDislpayedMissionContent] = useState(false);
-  // const [displayedValuesContent, SetDislpayeValuesContent] = useState(false);
+  // const [displayedValuesContent, SetDislpayeValuesContent] = useState(false);`
   const handleClickOverview = () => {
     SetDislpayedContent(true);
   };
