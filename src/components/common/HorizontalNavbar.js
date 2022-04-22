@@ -3,7 +3,7 @@ import { Container, Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import "../../style/HorizontalNavbar.css";
-
+import { images } from "../../assets/images/image";
 // import { Container, Nav, NavDropdown } from "react-bootstrap";
 
 const HorizontalNavbar = () => {
@@ -11,7 +11,9 @@ const HorizontalNavbar = () => {
     <>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
-          <Navbar.Brand className="mindsoft-text">MINDSOFT</Navbar.Brand>
+          <Navbar.Brand className="mindsoft-text">
+            <img src={images.companyLogo} alt="" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>

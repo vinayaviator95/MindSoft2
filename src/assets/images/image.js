@@ -7,4 +7,5 @@ export const images = {
   technology_consult: require("./technology-consulting.jpg"),
   contactUs: require("./contact-us.png"),
   calling: require("./calling.jpg"),
+  companyLogo: require("./FINAL-LOGO.png"),
 };

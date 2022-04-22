@@ -8,8 +8,9 @@
 .navbar-home:hover {
   color: #00afef;
 }
-.mindsoft-text {
+.mindsoft-text img {
   /* color: #00afef !important; */
-  font-weight: 500;
-  font-weight: 600;
+  /* font-weight: 500;
+  font-weight: 600; */
+  height: 80px;
 }
