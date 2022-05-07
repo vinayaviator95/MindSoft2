@@ -22,7 +22,7 @@ const AboutUs = () => {
         <div className="line"></div>
         <div className="fluid-container">
           <Row className="justify-content-center">
-            <Col md={4} className="  sideContainer m-2">
+            <Col md={4} className="sideContainer m-2">
               <div className="sideMain">
                 <div className="sideDetails">
                   <div className="heading">

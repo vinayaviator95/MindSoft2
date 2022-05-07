@@ -1,12 +1,12 @@
 .aboutContainer .line {
-  background-color: #f15a29;
+  background-color: #f58634;
   margin-bottom: 10px;
   min-height: 15px;
   width: 100%;
   margin-top: 2rem;
 }
 .line {
-  background-color: #f15a29;
+  background-color: #f58634;
   margin-bottom: 10px;
   min-height: 15px;
   width: 100%;
@@ -30,7 +30,7 @@
   text-align: left;
 }
 .sideContainer:hover {
-  background-color: #00afef;
+  background: #373d81;
   transform: translateY(-18px);
   transition: 0.5s;
 }
@@ -46,7 +46,7 @@
 .heading .rightsideHeading {
   line-height: 32px;
   font-size: 25px;
-  color: #00afef;
+  color: #373d81;
   font-weight: 700;
   letter-spacing: normal;
 }
@@ -58,7 +58,7 @@
   letter-spacing: normal;
   line-height: 32px;
   font-size: 25px;
-  color: #00afef;
+  color: #373d81;
   font-weight: 700;
   letter-spacing: normal;
   position: relative;
@@ -66,7 +66,7 @@
 }
 
 .heading button {
-  background-color: #00afef;
+  background-color: #373d81;
 
   border: transparent;
   height: 30px;

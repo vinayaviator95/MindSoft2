@@ -15,12 +15,12 @@ const ContactUs = () => {
           <div className="contactUs-leftDiv">
             <div className="contactUs-heading">CONTACT US</div>
             <div className="contactUs-CorporateText">Corporate Office</div>
-            <div className="mt-2 mb-2">
+            {/* <div className="mt-2 mb-2">
               <span style={{ marginRight: "5px" }}>
                 <FaMapMarkerAlt />
               </span>
               <b>Address:</b>13053 Elm Tree Drive, Suite 202, Herndon, VA 20171
-            </div>
+            </div> */}
             <div className="mt-2 mb-2">
               <span style={{ marginRight: "6px" }}>
                 <IoIosCall />

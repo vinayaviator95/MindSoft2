@@ -8,7 +8,7 @@
   /* border-left: 9px solid #0b2e83; */
   padding-top: 25px;
 }
-.aboutUs-heading::before {
+/* .aboutUs-heading::before {
   position: absolute;
   content: "About Us";
   font-size: 77px;
@@ -19,7 +19,7 @@
   transform: translateX(-50%);
   z-index: -1;
   top: -9%;
-}
+} */
 
 .home-heading {
   font-size: 38px;
@@ -31,7 +31,7 @@
   /* border-left: 9px solid #0b2e83; */
   padding-top: 25px;
 }
-.home-heading::before {
+/* .home-heading::before {
   position: absolute;
   content: "Services";
   font-size: 77px;
@@ -42,4 +42,4 @@
   transform: translateX(-50%);
   z-index: -1;
   top: -9%;
-}
+} */

@@ -47,7 +47,7 @@ const Services = () => {
         <div className="line"></div>
         <div className="fluid-container">
           <Row className="justify-content-center">
-            <Col md={4} className="  sideContainer m-2">
+            <Col md={4} className="sideContainer m-2">
               <div className="sideMain">
                 <div className="sideDetails">
                   <div className="heading">
@@ -97,12 +97,12 @@ const Services = () => {
                     />
                     <span>APO/KPO</span>
                   </div> */}
-                  <div className="sideContent" onClick={handleDisplayIndustry}>
+                  {/* <div className="sideContent" onClick={handleDisplayIndustry}>
                     <IoMdArrowDropright
                       style={{ marginRight: "5px", marginLeft: "10px" }}
                     />
                     <span>Industry</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Col>

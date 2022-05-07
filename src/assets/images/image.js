@@ -8,4 +8,5 @@ export const images = {
   contactUs: require("./contact-us.png"),
   calling: require("./calling.jpg"),
   companyLogo: require("./FINAL-LOGO.png"),
+  companyfav: require("./favicon.ico"),
 };

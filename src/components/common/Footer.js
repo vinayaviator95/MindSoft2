@@ -27,12 +27,12 @@ const Footer = () => {
               <div className="footer-flex2-div1">Phone</div>
               <div className="footer-flex2-div2">(312) 585-6061</div>
             </div>
-            <div className="footer-flex3">
+            {/* <div className="footer-flex3">
               <div className="footer-flex3-div1">Address</div>
               <div className="footer-flex3-div2">
                 13053 Elm Tree Drive, Suite 202, Herndon, VA 20171
               </div>
-            </div>
+            </div> */}
           </div>
         </Col>
         <Col
